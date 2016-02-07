@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>jh-angular-number-picker</title>
+
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"
+          integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <link rel="stylesheet" href="dist/jh-angular-number-picker.css"/>
+
+    <style>
+        [ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak {
+            display: none !important;
+        }
+    </style>
+
+</head>
+<body ng-app="demoApp" ng-controller="demoCtrl as demo" class="ng-cloak">
+
+<div class="container">
+
+    <h1>jh-angular-number-picker</h1>
+
+    <h4>Number: {{demo.number}}</h4>
+
+    <jh-number-picker number="demo.number"
+                      min="0"
+                      max="100"
+                      step="5"></jh-number-picker>
+
+    <h3>Options</h3>
+
+    <table class="table">
+        <tr>
+            <th     >Option Name</th>
+            <th>Type</th>
+            <th>Default Value</th>
+        </tr>
+        <tr>
+            <td>number</td>
+            <td>Number</td>
+            <td>0</td>
+        </tr>
+        <tr>
+            <td>step</td>
+            <td>Number</td>
+            <td>1</td>
+        </tr>
+        <tr>
+            <td>min</td>
+            <td>Number</td>
+            <td>0</td>
+        </tr>
+        <tr>
+            <td>max</td>
+            <td>Number</td>
+            <td>100</td>
+        </tr>
+    </table>
+
+</div>
+
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/angularjs/1.5.0/angular.js"></script>
+<script src="dist/jh-angular-number-picker.js"></script>
+
+<script>
+    (function () {
+        'use strict';
+
+        angular.module('demoApp', ['jh.angular-number-picker'])
+                .controller('demoCtrl', demoCtrl);
+
+        demoCtrl.$inject = [];
+
+        function demoCtrl() {
+            var vm = this;
+
+            vm.number = 0;
+        }
+
+    })();
+</script>
+
+</body>
+</html>

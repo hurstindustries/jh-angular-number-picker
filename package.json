@@ -1,0 +1,35 @@
+{
+  "name": "jh-angular-number-picker",
+  "version": "0.0.1",
+  "description": "an angularjs 1.5 component for selecting a number ",
+  "main": "dist/jh-angular-number-picker.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hurstindustries/jh-angular-number-picker.git"
+  },
+  "keywords": [
+    "angular",
+    "javascript",
+    "number",
+    "picker",
+    "1.5",
+    "component"
+  ],
+  "author": "Joshua Hurst (hurstdustries@gmail.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hurstindustries/jh-angular-number-picker/issues"
+  },
+  "homepage": "https://github.com/hurstindustries/jh-angular-number-picker#readme",
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-cssnano": "^2.1.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-uglify": "^1.5.1",
+    "rimraf": "^2.5.1",
+    "run-sequence": "^1.1.5"
+  }
+}
