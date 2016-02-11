@@ -41,6 +41,8 @@
 
         var vm = this;
 
+        vm.number = parseInt(vm.number, 10) || 0;
+
         var opts = assign({
             min: this.min,
             max: this.max,
