@@ -2,6 +2,11 @@
 
 jh-number-picker is an angluar ^1.5.0 component for easily selcecting a number in a visually appealing (no bootstrap required) and functional way.
 
+##Demo
+
+![jh-angular-number-picker](http://i.imgur.com/qyPVHep.gif)
+
+
 ## Requirements
 Angluarjs ^1.5.0
 
