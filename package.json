@@ -1,6 +1,6 @@
 {
   "name": "jh-angular-number-picker",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "an angularjs 1.5 component for selecting a number ",
   "main": "dist/jh-angular-number-picker.js",
   "scripts": {
