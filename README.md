@@ -8,12 +8,12 @@ jh-number-picker is an angluar ^1.5.0 component for easily selcecting a number i
 
 
 ## Requirements
-Angluarjs ^1.5.0
+Angularjs ^1.5.0
 
 ### Installation
 
 ```sh
-$ npm install jh.angular-number-picker --save
+$ npm install jh-angular-number-picker --save
 ```
 
 ### Usage
@@ -22,7 +22,7 @@ $ npm install jh.angular-number-picker --save
 ```javascript
 <script>
 angular.module('myApp', [
-    'jh-angular-number-picker'
+    'jh.angular-number-picker'
 ]).controller('myController', ['$scope', function($scope){
     $scope.myNumber = 0;
 }]);
