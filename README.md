@@ -13,12 +13,12 @@ Angluarjs ^1.5.0
 ### Installation
 
 ```sh
-$ npm install jh-angular-number-picker --save
+$ npm install jh.angular-number-picker --save
 ```
 
 ### Usage
 
-***Include module into app depenancy***
+***Include module into app dependancy***
 ```javascript
 <script>
 angular.module('myApp', [
